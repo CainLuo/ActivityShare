@@ -1,0 +1,16 @@
+//
+//  ActivityController-PrefixHeader.pch
+//  ActivityViewControllerDemo
+//
+//  Created by Cain on 28/6/16.
+//  Copyright © 2016年 Cain. All rights reserved.
+//
+
+#ifndef ActivityController_PrefixHeader_pch
+#define ActivityController_PrefixHeader_pch
+
+#import <CALCustomShareSDK/CALCustomShareSDK.h>
+#import "CALCustomShareBlock.h"
+#import "CALCustomShareRegisterPlatforms.h"
+
+#endif /* ActivityController_PrefixHeader_pch */

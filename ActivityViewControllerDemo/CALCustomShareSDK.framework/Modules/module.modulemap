@@ -1,0 +1,6 @@
+framework module CALCustomShareSDK {
+  umbrella header "CALCustomShareSDK.h"
+
+  export *
+  module * { export * }
+}

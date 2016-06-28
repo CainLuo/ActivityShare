@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYf-Lb-RGH">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="A9g-WY-LZk"/>
+                                    <constraint firstAttribute="width" constant="100" id="jg3-1r-XdG"/>
+                                </constraints>
+                                <state key="normal" image="share_gray"/>
+                                <connections>
+                                    <action selector="presentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLC-1o-4zp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvI-o7-d2q">
+                                <rect key="frame" x="263" y="385" width="75" height="30"/>
+                                <state key="normal" title="分享到微博"/>
+                                <connections>
+                                    <action selector="shareWeiBo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IST-Yr-Lad"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SvI-o7-d2q" firstAttribute="top" secondItem="wYf-Lb-RGH" secondAttribute="bottom" constant="35" id="2W1-D7-ee4"/>
+                            <constraint firstItem="SvI-o7-d2q" firstAttribute="centerX" secondItem="wYf-Lb-RGH" secondAttribute="centerX" id="K9P-96-ZKA"/>
+                            <constraint firstItem="wYf-Lb-RGH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qln-uQ-rcN"/>
+                            <constraint firstItem="wYf-Lb-RGH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SyF-la-6vI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qrp-Fw-38j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1283" y="1125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="share_gray" width="24" height="24"/>
+    </resources>
+</document>
