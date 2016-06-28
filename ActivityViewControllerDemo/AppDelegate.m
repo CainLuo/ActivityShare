@@ -8,9 +8,6 @@
 
 #import "AppDelegate.h"
 
-//#import "CALCustomShare.h"
-//#import "CALCustomShareRegisterPlatforms.h"
-
 @interface AppDelegate ()
 
 @end
@@ -21,10 +18,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-//    [OpenShare connectWeixinWithAppId:@"wxd930ea5d5a258f4f"];
-//    [OpenShare connectWeiboWithAppKey:@"2390130985"];
-
-    
     NSArray *platforms = @[@{@"shareType" : @"CALCustomShareWeibo",
                              @"appKey" : @"2390130985"},
                            @{@"shareType" : @"CALCustomShareWechat",
@@ -32,7 +25,7 @@
                            @{@"shareType" : @"CALCustomShareTencent",
                              @"appid" : @"1105429875",}];
     
-//    [CALCustomShareRegisterPlatforms registerPlatformsWithDictionary:platforms];
+    [CALCustomShareRegisterPlatforms registerPlatformsWithDictionary:platforms];
 
     return YES;
 }
@@ -61,10 +54,10 @@
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
     
-//    if ([CALCustomShare handleOpenURL:url]) {
-//        
-//        return YES;
-//    }
+    if ([CALCustomShare handleOpenURL:url]) {
+        
+        return YES;
+    }
     //这里可以写上其他OpenShare不支持的客户端的回调，比如支付宝等。
     return YES;
 }
