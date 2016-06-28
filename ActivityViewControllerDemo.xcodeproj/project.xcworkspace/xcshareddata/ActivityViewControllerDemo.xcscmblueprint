@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BC83D6C373F6A2A0CA6946F13C7BF084AACE10C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BC83D6C373F6A2A0CA6946F13C7BF084AACE10C8" : 0,
+    "E68CD2631CA10B792BA85063A60853CCBE57FB34" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "03D90F28-8D50-4583-BB90-711E5FA4281C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BC83D6C373F6A2A0CA6946F13C7BF084AACE10C8" : "ActivityViewControllerDemo\/",
+    "E68CD2631CA10B792BA85063A60853CCBE57FB34" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ActivityViewControllerDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ActivityViewControllerDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CainRun\/ActivityViewControllerDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC83D6C373F6A2A0CA6946F13C7BF084AACE10C8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:LLLDriverCodes\/ActivityController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E68CD2631CA10B792BA85063A60853CCBE57FB34"
+    }
+  ]
+}
