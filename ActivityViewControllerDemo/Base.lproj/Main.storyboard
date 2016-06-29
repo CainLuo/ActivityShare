@@ -59,6 +59,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="EYW-R5-5DD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="4BH-5p-uVX"/>
                             <constraint firstAttribute="trailing" secondItem="FUJ-qK-XkI" secondAttribute="trailing" id="AFb-RI-lAw"/>
                             <constraint firstItem="EYW-R5-5DD" firstAttribute="trailing" secondItem="nlu-mH-eR3" secondAttribute="trailing" id="Cvq-z2-Q3q"/>
                             <constraint firstItem="nlu-mH-eR3" firstAttribute="top" secondItem="EYW-R5-5DD" secondAttribute="bottom" constant="29" id="GWL-Ru-a4U"/>
@@ -67,6 +68,7 @@
                             <constraint firstItem="wYf-Lb-RGH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SyF-la-6vI"/>
                             <constraint firstItem="NOi-g5-ByX" firstAttribute="top" secondItem="FUJ-qK-XkI" secondAttribute="bottom" constant="24" id="Tmc-ok-MRA"/>
                             <constraint firstAttribute="trailing" secondItem="nlu-mH-eR3" secondAttribute="trailing" constant="30" id="aSZ-Gd-iga"/>
+                            <constraint firstItem="wYf-Lb-RGH" firstAttribute="top" secondItem="nlu-mH-eR3" secondAttribute="bottom" constant="50" id="ij3-yj-Q0Z"/>
                             <constraint firstItem="wYf-Lb-RGH" firstAttribute="top" secondItem="nlu-mH-eR3" secondAttribute="bottom" constant="50" id="ksP-aV-ttm"/>
                             <constraint firstItem="EYW-R5-5DD" firstAttribute="leading" secondItem="nlu-mH-eR3" secondAttribute="leading" id="laI-LR-vl3"/>
                             <constraint firstItem="FUJ-qK-XkI" firstAttribute="top" secondItem="wYf-Lb-RGH" secondAttribute="bottom" constant="35" id="pbw-E1-39o"/>
@@ -74,9 +76,16 @@
                             <constraint firstItem="FUJ-qK-XkI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xoN-Vm-gvA"/>
                             <constraint firstItem="NOi-g5-ByX" firstAttribute="leading" secondItem="FUJ-qK-XkI" secondAttribute="leading" id="zEe-Mf-y94"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="SyF-la-6vI"/>
+                                <exclude reference="ksP-aV-ttm"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="CALCustomShare" id="Qrp-Fw-38j"/>
                     <connections>
+                        <outlet property="activityButton" destination="wYf-Lb-RGH" id="SSq-P7-UG6"/>
                         <outlet property="shareContent" destination="nlu-mH-eR3" id="biX-kS-Ycl"/>
                         <outlet property="shareTitle" destination="EYW-R5-5DD" id="luC-Dg-XMS"/>
                     </connections>

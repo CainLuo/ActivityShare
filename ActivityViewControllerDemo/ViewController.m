@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *shareTitle;
 @property (weak, nonatomic) IBOutlet UITextField *shareContent;
+@property (weak, nonatomic) IBOutlet UIButton *activityButton;
 
 @property (nonatomic, strong) CALActivityController *activityController;
 
@@ -60,6 +61,14 @@
         [alertView show];
         
         return;
+    }
+    
+    UIPopoverPresentationController *popover = self.activityController.popoverPresentationController;
+    
+    if (popover) {
+        
+        popover.sourceView = self.activityButton;
+        popover.permittedArrowDirections = UIPopoverArrowDirectionUp;
     }
     
     [self presentViewController:self.activityController animated:YES completion:nil];
