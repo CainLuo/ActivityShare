@@ -30,21 +30,56 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是一个简单的系统分享演示" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUJ-qK-XkI">
-                                <rect key="frame" x="0.0" y="385" width="600" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="0.0" y="385" width="600" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入分享的内容" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nlu-mH-eR3">
+                                <rect key="frame" x="30" y="170" width="540" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="445-2T-U3Q"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入分享的标题" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EYW-R5-5DD">
+                                <rect key="frame" x="30" y="111" width="540" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vcS-wk-qAq"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="默认分享的链接为:http://www.apple.com.cn" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOi-g5-ByX">
+                                <rect key="frame" x="0.0" y="426" width="600" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="FUJ-qK-XkI" secondAttribute="trailing" id="AFb-RI-lAw"/>
+                            <constraint firstItem="EYW-R5-5DD" firstAttribute="trailing" secondItem="nlu-mH-eR3" secondAttribute="trailing" id="Cvq-z2-Q3q"/>
+                            <constraint firstItem="nlu-mH-eR3" firstAttribute="top" secondItem="EYW-R5-5DD" secondAttribute="bottom" constant="29" id="GWL-Ru-a4U"/>
+                            <constraint firstItem="nlu-mH-eR3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="Gcx-je-TtY"/>
                             <constraint firstItem="wYf-Lb-RGH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qln-uQ-rcN"/>
                             <constraint firstItem="wYf-Lb-RGH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SyF-la-6vI"/>
+                            <constraint firstItem="NOi-g5-ByX" firstAttribute="top" secondItem="FUJ-qK-XkI" secondAttribute="bottom" constant="24" id="Tmc-ok-MRA"/>
+                            <constraint firstAttribute="trailing" secondItem="nlu-mH-eR3" secondAttribute="trailing" constant="30" id="aSZ-Gd-iga"/>
+                            <constraint firstItem="wYf-Lb-RGH" firstAttribute="top" secondItem="nlu-mH-eR3" secondAttribute="bottom" constant="50" id="ksP-aV-ttm"/>
+                            <constraint firstItem="EYW-R5-5DD" firstAttribute="leading" secondItem="nlu-mH-eR3" secondAttribute="leading" id="laI-LR-vl3"/>
                             <constraint firstItem="FUJ-qK-XkI" firstAttribute="top" secondItem="wYf-Lb-RGH" secondAttribute="bottom" constant="35" id="pbw-E1-39o"/>
+                            <constraint firstItem="NOi-g5-ByX" firstAttribute="trailing" secondItem="FUJ-qK-XkI" secondAttribute="trailing" id="xXI-Cf-0Rh"/>
                             <constraint firstItem="FUJ-qK-XkI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xoN-Vm-gvA"/>
+                            <constraint firstItem="NOi-g5-ByX" firstAttribute="leading" secondItem="FUJ-qK-XkI" secondAttribute="leading" id="zEe-Mf-y94"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="CALCustomShare" id="Qrp-Fw-38j"/>
+                    <connections>
+                        <outlet property="shareContent" destination="nlu-mH-eR3" id="biX-kS-Ycl"/>
+                        <outlet property="shareTitle" destination="EYW-R5-5DD" id="luC-Dg-XMS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
