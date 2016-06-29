@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Cain. All rights reserved.
 //
 
-#import "TencentQZoneActivity.h"
+#import "CALTencentQZoneActivity.h"
 
-@implementation TencentQZoneActivity
+@implementation CALTencentQZoneActivity
 
 - (NSString *)activityType {
     

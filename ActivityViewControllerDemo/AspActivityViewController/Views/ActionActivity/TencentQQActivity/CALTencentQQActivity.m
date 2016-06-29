@@ -1,23 +1,23 @@
 //
-//  AspActionActivity.m
+//  TencentQQActivity.m
 //  ActivityViewControllerDemo
 //
-//  Created by Cain on 23/5/2016.
-//  Copyright © 2016 Cain. All rights reserved.
+//  Created by Cain on 28/6/16.
+//  Copyright © 2016年 Cain. All rights reserved.
 //
 
-#import "WeiboActionActivity.h"
+#import "CALTencentQQActivity.h"
 
-@implementation WeiboActionActivity
+@implementation CALTencentQQActivity
 
 - (NSString *)activityType {
     
-    return @"AspSinaWeiboActionActivity";
+    return @"CALTencentQQActivity";
 }
 
 - (NSString *)activityTitle {
     
-    return @"新浪微博";
+    return @"QQ好友";
 }
 
 /**
@@ -31,7 +31,7 @@
     // iPadShare@2x should be 126 px, iPadShare should be 53 px, iPhoneShare@2x should be 100
     // px, and iPhoneShare should be 50 px. I found these sizes to work for what I was making.
     
-    return [UIImage imageNamed:@"ShareBundle.bundle/share_icon_1"];
+    return [UIImage imageNamed:@"ShareBundle.bundle/share_icon_6"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
@@ -40,15 +40,15 @@
         
         return YES;
     }
-
+    
     return NO;
 }
 
 - (void)performActivity {
     [self activityDidFinish:YES];
     
-    if (self.weiboActivityBlock) {
-        self.weiboActivityBlock();
+    if (self.tencentQQActivityBlock) {
+        self.tencentQQActivityBlock();
     }
 }
 

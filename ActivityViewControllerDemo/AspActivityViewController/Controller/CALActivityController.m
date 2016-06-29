@@ -6,27 +6,27 @@
 //  Copyright © 2016 Cain. All rights reserved.
 //
 
-#import "AspActivityViewController.h"
+#import "CALActivityController.h"
 
-#import "WeiboActionActivity.h"
-#import "WeChatSessionActivity.h"
-#import "WeChatTimelineActivity.h"
-#import "TencentQQActivity.h"
-#import "TencentQZoneActivity.h"
+#import "CALSinaWeiboActivity.h"
+#import "CALWeChatSessionActivity.h"
+#import "CALWeChatTimelineActivity.h"
+#import "CALTencentQQActivity.h"
+#import "CALTencentQZoneActivity.h"
 
 #define AspWS(weakSelf) __weak __typeof(&*self)weakSelf = self
 
-@interface AspActivityViewController ()
+@interface CALActivityController ()
 
-@property (nonatomic, strong) WeiboActionActivity *sinaWeiboActivity;
-@property (nonatomic, strong) WeChatSessionActivity  *weChatSessionActivity;
-@property (nonatomic, strong) WeChatTimelineActivity *weChatTimelineActivity;
-@property (nonatomic, strong) TencentQZoneActivity   *tencentQZoneActivity;
-@property (nonatomic, strong) TencentQQActivity      *tencentQQActivity;
+@property (nonatomic, strong) CALSinaWeiboActivity      *sinaWeiboActivity;
+@property (nonatomic, strong) CALWeChatSessionActivity  *weChatSessionActivity;
+@property (nonatomic, strong) CALWeChatTimelineActivity *weChatTimelineActivity;
+@property (nonatomic, strong) CALTencentQZoneActivity   *tencentQZoneActivity;
+@property (nonatomic, strong) CALTencentQQActivity      *tencentQQActivity;
 
 @end
 
-@implementation AspActivityViewController
+@implementation CALActivityController
 
 - (instancetype)initAspActivityControllerWithContent:(NSArray *)activityContent activities:(NSArray *)activities {
     
@@ -70,52 +70,47 @@
 }
 
 #pragma mark - Init Custom Activitys
-- (WeiboActionActivity *)sinaWeiboActivity {
+- (CALSinaWeiboActivity *)sinaWeiboActivity {
     
-    if (!_sinaWeiboActivity) {
-        
-        _sinaWeiboActivity = [[WeiboActionActivity alloc] init];
-    }
+    CAL_GET_OBJECT(_sinaWeiboActivity);
+    
+    _sinaWeiboActivity = [[CALSinaWeiboActivity alloc] init];
     
     return _sinaWeiboActivity;
 }
 
-- (WeChatSessionActivity *)weChatSessionActivity {
+- (CALWeChatSessionActivity *)weChatSessionActivity {
     
-    if (!_weChatSessionActivity) {
-        
-        _weChatSessionActivity = [[WeChatSessionActivity alloc] init];
-    }
+    CAL_GET_OBJECT(_weChatSessionActivity);
+    
+    _weChatSessionActivity = [[CALWeChatSessionActivity alloc] init];
     
     return _weChatSessionActivity;
 }
 
-- (WeChatTimelineActivity *)weChatTimelineActivity {
+- (CALWeChatTimelineActivity *)weChatTimelineActivity {
     
-    if (!_weChatTimelineActivity) {
-        
-        _weChatTimelineActivity = [[WeChatTimelineActivity alloc] init];
-    }
+    CAL_GET_OBJECT(_weChatTimelineActivity);
+    
+    _weChatTimelineActivity = [[CALWeChatTimelineActivity alloc] init];
     
     return _weChatTimelineActivity;
 }
 
-- (TencentQQActivity *)tencentQQActivity {
+- (CALTencentQQActivity *)tencentQQActivity {
     
-    if (!_tencentQQActivity) {
-        
-        _tencentQQActivity = [[TencentQQActivity alloc] init];
-    }
+    CAL_GET_OBJECT(_tencentQQActivity);
+    
+    _tencentQQActivity = [[CALTencentQQActivity alloc] init];
     
     return _tencentQQActivity;
 }
 
-- (TencentQZoneActivity *)tencentQZoneActivity {
+- (CALTencentQZoneActivity *)tencentQZoneActivity {
     
-    if (!_tencentQZoneActivity) {
-        
-        _tencentQZoneActivity = [[TencentQZoneActivity alloc] init];
-    }
+    CAL_GET_OBJECT(_tencentQZoneActivity);
+    
+    _tencentQZoneActivity = [[CALTencentQZoneActivity alloc] init];
     
     return _tencentQZoneActivity;
 }

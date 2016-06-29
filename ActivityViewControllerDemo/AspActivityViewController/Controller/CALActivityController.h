@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AspActivityViewController : UIActivityViewController
+@interface CALActivityController : UIActivityViewController
 
 @property (nonatomic, strong) CALCustomShareMessage *customShareMessage;
 

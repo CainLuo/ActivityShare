@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TencentQQActivity : UIActivity
+@interface CALTencentQQActivity : UIActivity
 
 @property (nonatomic, copy) void(^tencentQQActivityBlock)(void);
 

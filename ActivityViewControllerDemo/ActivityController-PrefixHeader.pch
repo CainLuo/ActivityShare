@@ -13,4 +13,6 @@
 #import "CALCustomShareBlock.h"
 #import "CALCustomShareRegisterPlatforms.h"
 
+#define CAL_GET_OBJECT(objc) if (objc) return objc
+
 #endif /* ActivityController_PrefixHeader_pch */

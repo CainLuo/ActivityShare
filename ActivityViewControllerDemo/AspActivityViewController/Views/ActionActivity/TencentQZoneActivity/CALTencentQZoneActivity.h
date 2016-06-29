@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TencentQZoneActivity : UIActivity
+@interface CALTencentQZoneActivity : UIActivity
 
 @property (nonatomic, copy) void(^tencentQZoneActivityBlock)(void);
 

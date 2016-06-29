@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Cain. All rights reserved.
 //
 
-#import "WeChatTimelineActivity.h"
+#import "CALWeChatTimelineActivity.h"
 
-@implementation WeChatTimelineActivity
+@implementation CALWeChatTimelineActivity
 
 - (NSString *)activityType {
     

@@ -1,22 +1,20 @@
 //
 //  ViewController.m
-//  ActivityViewControllerDemo
+//  activityControllerDemo
 //
 //  Created by Cain on 5/20/16.
 //  Copyright © 2016 Cain. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "AspActivityViewController.h"
-
-#define CAL_GET_OBJECT(objc) if (objc) return objc
+#import "CALActivityController.h"
 
 @interface ViewController () <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *shareTitle;
 @property (weak, nonatomic) IBOutlet UITextField *shareContent;
 
-@property (nonatomic, strong) AspActivityViewController *activityViewController;
+@property (nonatomic, strong) CALActivityController *activityController;
 
 @property (nonatomic, strong) NSArray *items;
 
@@ -64,32 +62,32 @@
         return;
     }
     
-    [self presentViewController:self.activityViewController animated:YES completion:nil];
+    [self presentViewController:self.activityController animated:YES completion:nil];
 }
 
 - (void)textFieldDidEndEditing:(UITextField *)textField {
     
     if (textField.tag == 0) {
 
-        self.activityViewController.customShareMessage.shareTitle = [NSString stringWithFormat:@"标题: %@", textField.text];
+        self.activityController.customShareMessage.shareTitle = [NSString stringWithFormat:@"标题: %@", textField.text];
     } else {
      
-        self.activityViewController.customShareMessage.shareDescription = [NSString stringWithFormat:@"介绍内容: %@", textField.text];
+        self.activityController.customShareMessage.shareDescription = [NSString stringWithFormat:@"介绍内容: %@", textField.text];
     }
 }
 
-- (AspActivityViewController *)activityViewController {
+- (CALActivityController *)activityController {
 
-    CAL_GET_OBJECT(_activityViewController);
+    CAL_GET_OBJECT(_activityController);
     
-    _activityViewController = [[AspActivityViewController alloc] initAspActivityControllerWithContent:self.items];
+    _activityController = [[CALActivityController alloc] initAspActivityControllerWithContent:self.items];
     
-    _activityViewController.customShareMessage.shareLink = @"http://www.apple.com.cn";
+    _activityController.customShareMessage.shareLink = @"http://www.apple.com.cn";
 
-    _activityViewController.customShareMessage.shareImage     = [UIImage imageNamed:@"Icon-60"];
-    _activityViewController.customShareMessage.shareThumbnail = [UIImage imageNamed:@"Icon-60"];
+    _activityController.customShareMessage.shareImage     = [UIImage imageNamed:@"Icon-60"];
+    _activityController.customShareMessage.shareThumbnail = [UIImage imageNamed:@"Icon-60"];
     
-    return _activityViewController;
+    return _activityController;
 }
 
 @end

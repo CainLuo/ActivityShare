@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Cain. All rights reserved.
 //
 
-#import "WeChatSessionActivity.h"
+#import "CALWeChatSessionActivity.h"
 
-@implementation WeChatSessionActivity
+@implementation CALWeChatSessionActivity
 
 - (NSString *)activityType {
     

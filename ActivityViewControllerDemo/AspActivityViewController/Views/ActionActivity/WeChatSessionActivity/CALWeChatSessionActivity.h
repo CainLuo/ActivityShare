@@ -1,5 +1,5 @@
 //
-//  WeChatTimelineActivity.h
+//  WeChatSessionActivity.h
 //  ActivityViewControllerDemo
 //
 //  Created by Cain on 28/6/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WeChatTimelineActivity : UIActivity
+@interface CALWeChatSessionActivity : UIActivity
 
-@property (nonatomic, copy) void(^weChatTimelineActivityBlock)(void);
+@property (nonatomic, copy) void(^weChatSessionActivityBlock)(void);
 
 @end
