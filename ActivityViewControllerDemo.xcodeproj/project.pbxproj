@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A48A37901D2261E800CE3E21 /* CALTencentQZoneActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A48A378F1D2261E800CE3E21 /* CALTencentQZoneActivity.m */; };
 		A48A37931D2261F100CE3E21 /* CALTencentQQActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A48A37921D2261F100CE3E21 /* CALTencentQQActivity.m */; };
+		A48CB7891D2A534E006B25E2 /* CALCustomShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48CB7881D2A534E006B25E2 /* CALCustomShareSDK.framework */; };
 		A49522331CEEAC2D00D03CA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A49522321CEEAC2D00D03CA6 /* main.m */; };
 		A49522361CEEAC2D00D03CA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A49522351CEEAC2D00D03CA6 /* AppDelegate.m */; };
 		A49522391CEEAC2D00D03CA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49522381CEEAC2D00D03CA6 /* ViewController.m */; };
@@ -17,7 +18,6 @@
 		A49522411CEEAC2D00D03CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A495223F1CEEAC2D00D03CA6 /* LaunchScreen.storyboard */; };
 		A495224C1CEEAC2D00D03CA6 /* ActivityViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A495224B1CEEAC2D00D03CA6 /* ActivityViewControllerDemoTests.m */; };
 		A49522571CEEAC2D00D03CA6 /* ActivityViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A49522561CEEAC2D00D03CA6 /* ActivityViewControllerDemoUITests.m */; };
-		A4C2D1851D22CBE6007322CF /* CALCustomShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2D1841D22CBE6007322CF /* CALCustomShareSDK.framework */; };
 		A4C2D1901D22CCC3007322CF /* CALCustomShareBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D18D1D22CCC3007322CF /* CALCustomShareBlock.m */; };
 		A4C2D1911D22CCC3007322CF /* CALCustomShareRegisterPlatforms.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D18F1D22CCC3007322CF /* CALCustomShareRegisterPlatforms.m */; };
 		A4C2D1991D2361D0007322CF /* CALSinaWeiboActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D1981D2361D0007322CF /* CALSinaWeiboActivity.m */; };
@@ -50,6 +50,7 @@
 		A48A378F1D2261E800CE3E21 /* CALTencentQZoneActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALTencentQZoneActivity.m; sourceTree = "<group>"; };
 		A48A37911D2261F100CE3E21 /* CALTencentQQActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALTencentQQActivity.h; sourceTree = "<group>"; };
 		A48A37921D2261F100CE3E21 /* CALTencentQQActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALTencentQQActivity.m; sourceTree = "<group>"; };
+		A48CB7881D2A534E006B25E2 /* CALCustomShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CALCustomShareSDK.framework; sourceTree = "<group>"; };
 		A495222E1CEEAC2D00D03CA6 /* ActivityViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49522321CEEAC2D00D03CA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A49522341CEEAC2D00D03CA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		A49522561CEEAC2D00D03CA6 /* ActivityViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewControllerDemoUITests.m; sourceTree = "<group>"; };
 		A49522581CEEAC2D00D03CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C2D1411D22C8A2007322CF /* ActivityController-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActivityController-PrefixHeader.pch"; sourceTree = "<group>"; };
-		A4C2D1841D22CBE6007322CF /* CALCustomShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CALCustomShareSDK.framework; sourceTree = "<group>"; };
 		A4C2D18C1D22CCC3007322CF /* CALCustomShareBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareBlock.h; sourceTree = "<group>"; };
 		A4C2D18D1D22CCC3007322CF /* CALCustomShareBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareBlock.m; sourceTree = "<group>"; };
 		A4C2D18E1D22CCC3007322CF /* CALCustomShareRegisterPlatforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareRegisterPlatforms.h; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C2D1851D22CBE6007322CF /* CALCustomShareSDK.framework in Frameworks */,
+				A48CB7891D2A534E006B25E2 /* CALCustomShareSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +141,7 @@
 				A4C2D18D1D22CCC3007322CF /* CALCustomShareBlock.m */,
 				A4C2D18E1D22CCC3007322CF /* CALCustomShareRegisterPlatforms.h */,
 				A4C2D18F1D22CCC3007322CF /* CALCustomShareRegisterPlatforms.m */,
-				A4C2D1841D22CBE6007322CF /* CALCustomShareSDK.framework */,
+				A48CB7881D2A534E006B25E2 /* CALCustomShareSDK.framework */,
 				A49522341CEEAC2D00D03CA6 /* AppDelegate.h */,
 				A49522351CEEAC2D00D03CA6 /* AppDelegate.m */,
 				A4C2D1411D22C8A2007322CF /* ActivityController-PrefixHeader.pch */,

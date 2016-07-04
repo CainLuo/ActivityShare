@@ -23,7 +23,7 @@
                            @{@"shareType" : @"CALCustomShareWechat",
                              @"appid" : @"wx695df646144820bc"},
                            @{@"shareType" : @"CALCustomShareTencent",
-                             @"appid" : @"1105429875",}];
+                             @"appid" : @"1105444155",}];
     
     [CALCustomShareRegisterPlatforms registerPlatformsWithDictionary:platforms];
 
