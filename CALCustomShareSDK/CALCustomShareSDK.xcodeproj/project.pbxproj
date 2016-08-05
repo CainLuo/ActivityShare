@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A4A6F41E1D5327570074EB12 /* CALCustomShareAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A4A6F41F1D5327570074EB12 /* Build configuration list for PBXAggregateTarget "CALCustomShareAggregate" */;
+			buildPhases = (
+				A4A6F4221D53275C0074EB12 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CALCustomShareAggregate;
+			productName = CALCustomShareAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A4A6F3DF1D5326630074EB12 /* CALCustomShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3DE1D5326630074EB12 /* CALCustomShareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F3E61D5326630074EB12 /* CALCustomShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A6F3DB1D5326630074EB12 /* CALCustomShareSDK.framework */; };
+		A4A6F3EB1D5326630074EB12 /* CALCustomShareSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3EA1D5326630074EB12 /* CALCustomShareSDKTests.m */; };
+		A4A6F40E1D5326830074EB12 /* CALCustomShare.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3F91D5326830074EB12 /* CALCustomShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F40F1D5326830074EB12 /* CALCustomShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3FA1D5326830074EB12 /* CALCustomShare.m */; };
+		A4A6F4101D5326830074EB12 /* CALCustomShareBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3FB1D5326830074EB12 /* CALCustomShareBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F4111D5326830074EB12 /* CALCustomShareBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */; };
+		A4A6F4121D5326830074EB12 /* CALCustomShareMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F4131D5326830074EB12 /* CALCustomShareMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */; };
+		A4A6F4141D5326830074EB12 /* CALCustomShareRegisterPlatforms.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3FF1D5326830074EB12 /* CALCustomShareRegisterPlatforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F4151D5326830074EB12 /* CALCustomShareRegisterPlatforms.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F4001D5326830074EB12 /* CALCustomShareRegisterPlatforms.m */; };
+		A4A6F4161D5326830074EB12 /* CALCustomShare+AliPay.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F4031D5326830074EB12 /* CALCustomShare+AliPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F4171D5326830074EB12 /* CALCustomShare+AliPay.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F4041D5326830074EB12 /* CALCustomShare+AliPay.m */; };
+		A4A6F4181D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F4061D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F4191D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F4071D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.m */; };
+		A4A6F41A1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F4091D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F41B1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F40A1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.m */; };
+		A4A6F41C1D5326830074EB12 /* CALCustomShare+SinaWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F40C1D5326830074EB12 /* CALCustomShare+SinaWeibo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A6F41D1D5326830074EB12 /* CALCustomShare+SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F40D1D5326830074EB12 /* CALCustomShare+SinaWeibo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4A6F3E71D5326630074EB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A6F3D21D5326630074EB12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A6F3DA1D5326630074EB12;
+			remoteInfo = CALCustomShareSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4A6F3DB1D5326630074EB12 /* CALCustomShareSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CALCustomShareSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A6F3DE1D5326630074EB12 /* CALCustomShareSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CALCustomShareSDK.h; sourceTree = "<group>"; };
+		A4A6F3E01D5326630074EB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A6F3E51D5326630074EB12 /* CALCustomShareSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALCustomShareSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A6F3EA1D5326630074EB12 /* CALCustomShareSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareSDKTests.m; sourceTree = "<group>"; };
+		A4A6F3EC1D5326630074EB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A6F3F91D5326830074EB12 /* CALCustomShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShare.h; sourceTree = "<group>"; };
+		A4A6F3FA1D5326830074EB12 /* CALCustomShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShare.m; sourceTree = "<group>"; };
+		A4A6F3FB1D5326830074EB12 /* CALCustomShareBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareBlock.h; sourceTree = "<group>"; };
+		A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareBlock.m; sourceTree = "<group>"; };
+		A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareMessage.h; sourceTree = "<group>"; };
+		A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareMessage.m; sourceTree = "<group>"; };
+		A4A6F3FF1D5326830074EB12 /* CALCustomShareRegisterPlatforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareRegisterPlatforms.h; sourceTree = "<group>"; };
+		A4A6F4001D5326830074EB12 /* CALCustomShareRegisterPlatforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareRegisterPlatforms.m; sourceTree = "<group>"; };
+		A4A6F4031D5326830074EB12 /* CALCustomShare+AliPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALCustomShare+AliPay.h"; sourceTree = "<group>"; };
+		A4A6F4041D5326830074EB12 /* CALCustomShare+AliPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALCustomShare+AliPay.m"; sourceTree = "<group>"; };
+		A4A6F4061D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALCustomShare+CALCustomShareTencent.h"; sourceTree = "<group>"; };
+		A4A6F4071D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALCustomShare+CALCustomShareTencent.m"; sourceTree = "<group>"; };
+		A4A6F4091D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALCustomShare+CALCustomShareWeChat.h"; sourceTree = "<group>"; };
+		A4A6F40A1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALCustomShare+CALCustomShareWeChat.m"; sourceTree = "<group>"; };
+		A4A6F40C1D5326830074EB12 /* CALCustomShare+SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALCustomShare+SinaWeibo.h"; sourceTree = "<group>"; };
+		A4A6F40D1D5326830074EB12 /* CALCustomShare+SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALCustomShare+SinaWeibo.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A6F3D71D5326630074EB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A6F3E21D5326630074EB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A6F3E61D5326630074EB12 /* CALCustomShareSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A6F3D11D5326630074EB12 = {
+			isa = PBXGroup;
+			children = (
+				A4A6F3DD1D5326630074EB12 /* CALCustomShareSDK */,
+				A4A6F3E91D5326630074EB12 /* CALCustomShareSDKTests */,
+				A4A6F3DC1D5326630074EB12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A6F3DC1D5326630074EB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F3DB1D5326630074EB12 /* CALCustomShareSDK.framework */,
+				A4A6F3E51D5326630074EB12 /* CALCustomShareSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A6F3DD1D5326630074EB12 /* CALCustomShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F3F71D5326830074EB12 /* CALCustomShareSDK */,
+				A4A6F3DE1D5326630074EB12 /* CALCustomShareSDK.h */,
+				A4A6F3E01D5326630074EB12 /* Info.plist */,
+			);
+			path = CALCustomShareSDK;
+			sourceTree = "<group>";
+		};
+		A4A6F3E91D5326630074EB12 /* CALCustomShareSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F3EA1D5326630074EB12 /* CALCustomShareSDKTests.m */,
+				A4A6F3EC1D5326630074EB12 /* Info.plist */,
+			);
+			path = CALCustomShareSDKTests;
+			sourceTree = "<group>";
+		};
+		A4A6F3F71D5326830074EB12 /* CALCustomShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F3F81D5326830074EB12 /* BaseSDK */,
+				A4A6F4011D5326830074EB12 /* CategorySDK */,
+			);
+			path = CALCustomShareSDK;
+			sourceTree = "<group>";
+		};
+		A4A6F3F81D5326830074EB12 /* BaseSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F3F91D5326830074EB12 /* CALCustomShare.h */,
+				A4A6F3FA1D5326830074EB12 /* CALCustomShare.m */,
+				A4A6F3FB1D5326830074EB12 /* CALCustomShareBlock.h */,
+				A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */,
+				A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */,
+				A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */,
+				A4A6F3FF1D5326830074EB12 /* CALCustomShareRegisterPlatforms.h */,
+				A4A6F4001D5326830074EB12 /* CALCustomShareRegisterPlatforms.m */,
+			);
+			path = BaseSDK;
+			sourceTree = "<group>";
+		};
+		A4A6F4011D5326830074EB12 /* CategorySDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F4021D5326830074EB12 /* AliPaySDK */,
+				A4A6F4051D5326830074EB12 /* TencentSDK */,
+				A4A6F4081D5326830074EB12 /* WeChatSDK */,
+				A4A6F40B1D5326830074EB12 /* WeiboSDK */,
+			);
+			path = CategorySDK;
+			sourceTree = "<group>";
+		};
+		A4A6F4021D5326830074EB12 /* AliPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F4031D5326830074EB12 /* CALCustomShare+AliPay.h */,
+				A4A6F4041D5326830074EB12 /* CALCustomShare+AliPay.m */,
+			);
+			path = AliPaySDK;
+			sourceTree = "<group>";
+		};
+		A4A6F4051D5326830074EB12 /* TencentSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F4061D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.h */,
+				A4A6F4071D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.m */,
+			);
+			path = TencentSDK;
+			sourceTree = "<group>";
+		};
+		A4A6F4081D5326830074EB12 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F4091D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.h */,
+				A4A6F40A1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.m */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		A4A6F40B1D5326830074EB12 /* WeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6F40C1D5326830074EB12 /* CALCustomShare+SinaWeibo.h */,
+				A4A6F40D1D5326830074EB12 /* CALCustomShare+SinaWeibo.m */,
+			);
+			path = WeiboSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4A6F3D81D5326630074EB12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A6F4181D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.h in Headers */,
+				A4A6F4161D5326830074EB12 /* CALCustomShare+AliPay.h in Headers */,
+				A4A6F4121D5326830074EB12 /* CALCustomShareMessage.h in Headers */,
+				A4A6F41C1D5326830074EB12 /* CALCustomShare+SinaWeibo.h in Headers */,
+				A4A6F40E1D5326830074EB12 /* CALCustomShare.h in Headers */,
+				A4A6F3DF1D5326630074EB12 /* CALCustomShareSDK.h in Headers */,
+				A4A6F4101D5326830074EB12 /* CALCustomShareBlock.h in Headers */,
+				A4A6F41A1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.h in Headers */,
+				A4A6F4141D5326830074EB12 /* CALCustomShareRegisterPlatforms.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4A6F3DA1D5326630074EB12 /* CALCustomShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A6F3EF1D5326630074EB12 /* Build configuration list for PBXNativeTarget "CALCustomShareSDK" */;
+			buildPhases = (
+				A4A6F3D61D5326630074EB12 /* Sources */,
+				A4A6F3D71D5326630074EB12 /* Frameworks */,
+				A4A6F3D81D5326630074EB12 /* Headers */,
+				A4A6F3D91D5326630074EB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CALCustomShareSDK;
+			productName = CALCustomShareSDK;
+			productReference = A4A6F3DB1D5326630074EB12 /* CALCustomShareSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4A6F3E41D5326630074EB12 /* CALCustomShareSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A6F3F21D5326630074EB12 /* Build configuration list for PBXNativeTarget "CALCustomShareSDKTests" */;
+			buildPhases = (
+				A4A6F3E11D5326630074EB12 /* Sources */,
+				A4A6F3E21D5326630074EB12 /* Frameworks */,
+				A4A6F3E31D5326630074EB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A6F3E81D5326630074EB12 /* PBXTargetDependency */,
+			);
+			name = CALCustomShareSDKTests;
+			productName = CALCustomShareSDKTests;
+			productReference = A4A6F3E51D5326630074EB12 /* CALCustomShareSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A6F3D21D5326630074EB12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cain;
+				TargetAttributes = {
+					A4A6F3DA1D5326630074EB12 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+					};
+					A4A6F3E41D5326630074EB12 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+					};
+					A4A6F41E1D5327570074EB12 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+					};
+				};
+			};
+			buildConfigurationList = A4A6F3D51D5326630074EB12 /* Build configuration list for PBXProject "CALCustomShareSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4A6F3D11D5326630074EB12;
+			productRefGroup = A4A6F3DC1D5326630074EB12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A6F3DA1D5326630074EB12 /* CALCustomShareSDK */,
+				A4A6F3E41D5326630074EB12 /* CALCustomShareSDKTests */,
+				A4A6F41E1D5327570074EB12 /* CALCustomShareAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A6F3D91D5326630074EB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A6F3E31D5326630074EB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4A6F4221D53275C0074EB12 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\n#open \"${DEVICE_DIR}\"\n#open \"${SRCROOT}/Products\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A6F3D61D5326630074EB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A6F4171D5326830074EB12 /* CALCustomShare+AliPay.m in Sources */,
+				A4A6F40F1D5326830074EB12 /* CALCustomShare.m in Sources */,
+				A4A6F4151D5326830074EB12 /* CALCustomShareRegisterPlatforms.m in Sources */,
+				A4A6F4131D5326830074EB12 /* CALCustomShareMessage.m in Sources */,
+				A4A6F41B1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.m in Sources */,
+				A4A6F4111D5326830074EB12 /* CALCustomShareBlock.m in Sources */,
+				A4A6F4191D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.m in Sources */,
+				A4A6F41D1D5326830074EB12 /* CALCustomShare+SinaWeibo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A6F3E11D5326630074EB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A6F3EB1D5326630074EB12 /* CALCustomShareSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A6F3E81D5326630074EB12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A6F3DA1D5326630074EB12 /* CALCustomShareSDK */;
+			targetProxy = A4A6F3E71D5326630074EB12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4A6F3ED1D5326630074EB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4A6F3EE1D5326630074EB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4A6F3F01D5326630074EB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CALCustomShareSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.customShare.CALCustomShareSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		A4A6F3F11D5326630074EB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CALCustomShareSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.customShare.CALCustomShareSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		A4A6F3F31D5326630074EB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CALCustomShareSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customShare.CALCustomShareSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4A6F3F41D5326630074EB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CALCustomShareSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customShare.CALCustomShareSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4A6F4201D5327570074EB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4A6F4211D5327570074EB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A6F3D51D5326630074EB12 /* Build configuration list for PBXProject "CALCustomShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A6F3ED1D5326630074EB12 /* Debug */,
+				A4A6F3EE1D5326630074EB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A6F3EF1D5326630074EB12 /* Build configuration list for PBXNativeTarget "CALCustomShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A6F3F01D5326630074EB12 /* Debug */,
+				A4A6F3F11D5326630074EB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4A6F3F21D5326630074EB12 /* Build configuration list for PBXNativeTarget "CALCustomShareSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A6F3F31D5326630074EB12 /* Debug */,
+				A4A6F3F41D5326630074EB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4A6F41F1D5327570074EB12 /* Build configuration list for PBXAggregateTarget "CALCustomShareAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A6F4201D5327570074EB12 /* Debug */,
+				A4A6F4211D5327570074EB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A6F3D21D5326630074EB12 /* Project object */;
+}
