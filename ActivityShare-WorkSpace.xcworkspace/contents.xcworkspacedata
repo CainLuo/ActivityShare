@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ActivityShare/ActivityShare.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ActivityViewControllerDemo/ActivityViewControllerDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CALCustomShareSDK/CALCustomShareSDK.xcodeproj">
+   </FileRef>
+</Workspace>

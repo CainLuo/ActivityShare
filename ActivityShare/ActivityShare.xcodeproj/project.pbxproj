@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A445DD311D54652000E0009A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD301D54652000E0009A /* main.m */; };
+		A445DD3C1D54652000E0009A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A445DD3B1D54652000E0009A /* Assets.xcassets */; };
+		A445DD3F1D54652000E0009A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A445DD3D1D54652000E0009A /* LaunchScreen.storyboard */; };
+		A445DD4A1D54652000E0009A /* ActivityShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD491D54652000E0009A /* ActivityShareTests.m */; };
+		A445DD551D54652000E0009A /* ActivityShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD541D54652000E0009A /* ActivityShareUITests.m */; };
+		A445DD651D54692B00E0009A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD641D54692B00E0009A /* AppDelegate.m */; };
+		A445DD6D1D546A8300E0009A /* ActivityShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD6C1D546A8300E0009A /* ActivityShareController.m */; };
+		A445DD711D546D1B00E0009A /* ActivityShareViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD701D546D1B00E0009A /* ActivityShareViewManager.m */; };
+		A445DD751D5473D600E0009A /* CALDeveloperKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A445DD741D5473D600E0009A /* CALDeveloperKit.framework */; };
+		A445DD771D5475B500E0009A /* CALCustomShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A445DD761D5475B500E0009A /* CALCustomShareSDK.framework */; };
+		A445DD7A1D5478F300E0009A /* ActivityShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD791D5478F300E0009A /* ActivityShareCell.m */; };
+		A445DD811D547CED00E0009A /* ActivityShareTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD801D547CED00E0009A /* ActivityShareTextController.m */; };
+		A445DD841D547D7100E0009A /* ActivityShareTextViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD831D547D7100E0009A /* ActivityShareTextViewManager.m */; };
+		A445DD871D54835200E0009A /* ActivityShareTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD861D54835200E0009A /* ActivityShareTextView.m */; };
+		A445DD9F1D548EE100E0009A /* AppIcon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A445DD891D548EE100E0009A /* AppIcon.bundle */; };
+		A445DDA01D548EE100E0009A /* CALActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD8C1D548EE100E0009A /* CALActivityController.m */; };
+		A445DDA11D548EE100E0009A /* ShareBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A445DD8D1D548EE100E0009A /* ShareBundle.bundle */; };
+		A445DDA21D548EE100E0009A /* CALSinaWeiboActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD921D548EE100E0009A /* CALSinaWeiboActivity.m */; };
+		A445DDA31D548EE100E0009A /* CALTencentQQActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD951D548EE100E0009A /* CALTencentQQActivity.m */; };
+		A445DDA41D548EE100E0009A /* CALTencentQZoneActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD981D548EE100E0009A /* CALTencentQZoneActivity.m */; };
+		A445DDA51D548EE100E0009A /* CALWeChatSessionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD9B1D548EE100E0009A /* CALWeChatSessionActivity.m */; };
+		A445DDA61D548EE100E0009A /* CALWeChatTimelineActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DD9E1D548EE100E0009A /* CALWeChatTimelineActivity.m */; };
+		A445DDAD1D549FE900E0009A /* ActivityShareImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DDAC1D549FE900E0009A /* ActivityShareImageController.m */; };
+		A445DDB01D54A00000E0009A /* ActivityShareImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DDAF1D54A00000E0009A /* ActivityShareImageViewManager.m */; };
+		A445DDB31D54A08500E0009A /* ActivityShareImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A445DDB21D54A08500E0009A /* ActivityShareImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A445DD461D54652000E0009A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A445DD241D54652000E0009A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A445DD2B1D54652000E0009A;
+			remoteInfo = ActivityShare;
+		};
+		A445DD511D54652000E0009A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A445DD241D54652000E0009A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A445DD2B1D54652000E0009A;
+			remoteInfo = ActivityShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A445DD2C1D54652000E0009A /* ActivityShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A445DD301D54652000E0009A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A445DD3B1D54652000E0009A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A445DD3E1D54652000E0009A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A445DD401D54652000E0009A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A445DD451D54652000E0009A /* ActivityShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A445DD491D54652000E0009A /* ActivityShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityShareTests.m; sourceTree = "<group>"; };
+		A445DD4B1D54652000E0009A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A445DD501D54652000E0009A /* ActivityShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A445DD541D54652000E0009A /* ActivityShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityShareUITests.m; sourceTree = "<group>"; };
+		A445DD561D54652000E0009A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A445DD631D54692B00E0009A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A445DD641D54692B00E0009A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A445DD6B1D546A8300E0009A /* ActivityShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareController.h; sourceTree = "<group>"; };
+		A445DD6C1D546A8300E0009A /* ActivityShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareController.m; sourceTree = "<group>"; };
+		A445DD6F1D546D1B00E0009A /* ActivityShareViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareViewManager.h; sourceTree = "<group>"; };
+		A445DD701D546D1B00E0009A /* ActivityShareViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareViewManager.m; sourceTree = "<group>"; };
+		A445DD721D546D4700E0009A /* ActivitySharePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivitySharePrefixHeader.pch; sourceTree = "<group>"; };
+		A445DD741D5473D600E0009A /* CALDeveloperKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CALDeveloperKit.framework; sourceTree = "<group>"; };
+		A445DD761D5475B500E0009A /* CALCustomShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CALCustomShareSDK.framework; sourceTree = "<group>"; };
+		A445DD781D5478F300E0009A /* ActivityShareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareCell.h; sourceTree = "<group>"; };
+		A445DD791D5478F300E0009A /* ActivityShareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareCell.m; sourceTree = "<group>"; };
+		A445DD7F1D547CED00E0009A /* ActivityShareTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareTextController.h; sourceTree = "<group>"; };
+		A445DD801D547CED00E0009A /* ActivityShareTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareTextController.m; sourceTree = "<group>"; };
+		A445DD821D547D7100E0009A /* ActivityShareTextViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareTextViewManager.h; sourceTree = "<group>"; };
+		A445DD831D547D7100E0009A /* ActivityShareTextViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareTextViewManager.m; sourceTree = "<group>"; };
+		A445DD851D54835200E0009A /* ActivityShareTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareTextView.h; sourceTree = "<group>"; };
+		A445DD861D54835200E0009A /* ActivityShareTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareTextView.m; sourceTree = "<group>"; };
+		A445DD891D548EE100E0009A /* AppIcon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppIcon.bundle; sourceTree = "<group>"; };
+		A445DD8B1D548EE100E0009A /* CALActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALActivityController.h; sourceTree = "<group>"; };
+		A445DD8C1D548EE100E0009A /* CALActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALActivityController.m; sourceTree = "<group>"; };
+		A445DD8D1D548EE100E0009A /* ShareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareBundle.bundle; sourceTree = "<group>"; };
+		A445DD911D548EE100E0009A /* CALSinaWeiboActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALSinaWeiboActivity.h; sourceTree = "<group>"; };
+		A445DD921D548EE100E0009A /* CALSinaWeiboActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALSinaWeiboActivity.m; sourceTree = "<group>"; };
+		A445DD941D548EE100E0009A /* CALTencentQQActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALTencentQQActivity.h; sourceTree = "<group>"; };
+		A445DD951D548EE100E0009A /* CALTencentQQActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALTencentQQActivity.m; sourceTree = "<group>"; };
+		A445DD971D548EE100E0009A /* CALTencentQZoneActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALTencentQZoneActivity.h; sourceTree = "<group>"; };
+		A445DD981D548EE100E0009A /* CALTencentQZoneActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALTencentQZoneActivity.m; sourceTree = "<group>"; };
+		A445DD9A1D548EE100E0009A /* CALWeChatSessionActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALWeChatSessionActivity.h; sourceTree = "<group>"; };
+		A445DD9B1D548EE100E0009A /* CALWeChatSessionActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALWeChatSessionActivity.m; sourceTree = "<group>"; };
+		A445DD9D1D548EE100E0009A /* CALWeChatTimelineActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALWeChatTimelineActivity.h; sourceTree = "<group>"; };
+		A445DD9E1D548EE100E0009A /* CALWeChatTimelineActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALWeChatTimelineActivity.m; sourceTree = "<group>"; };
+		A445DDAB1D549FE900E0009A /* ActivityShareImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareImageController.h; sourceTree = "<group>"; };
+		A445DDAC1D549FE900E0009A /* ActivityShareImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareImageController.m; sourceTree = "<group>"; };
+		A445DDAE1D54A00000E0009A /* ActivityShareImageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareImageViewManager.h; sourceTree = "<group>"; };
+		A445DDAF1D54A00000E0009A /* ActivityShareImageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareImageViewManager.m; sourceTree = "<group>"; };
+		A445DDB11D54A08500E0009A /* ActivityShareImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShareImageView.h; sourceTree = "<group>"; };
+		A445DDB21D54A08500E0009A /* ActivityShareImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShareImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A445DD291D54652000E0009A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A445DD751D5473D600E0009A /* CALDeveloperKit.framework in Frameworks */,
+				A445DD771D5475B500E0009A /* CALCustomShareSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A445DD421D54652000E0009A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A445DD4D1D54652000E0009A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A445DD231D54652000E0009A = {
+			isa = PBXGroup;
+			children = (
+				A445DD2E1D54652000E0009A /* ActivityShare */,
+				A445DD481D54652000E0009A /* ActivityShareTests */,
+				A445DD531D54652000E0009A /* ActivityShareUITests */,
+				A445DD2D1D54652000E0009A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A445DD2D1D54652000E0009A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD2C1D54652000E0009A /* ActivityShare.app */,
+				A445DD451D54652000E0009A /* ActivityShareTests.xctest */,
+				A445DD501D54652000E0009A /* ActivityShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A445DD2E1D54652000E0009A /* ActivityShare */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD881D548EE100E0009A /* CALActivityController */,
+				A445DD661D546A0200E0009A /* ActivityModular */,
+				A445DD621D54692B00E0009A /* AppDelegate */,
+				A445DD731D5473C800E0009A /* Framework */,
+				A445DD6A1D546A4500E0009A /* Resource */,
+			);
+			path = ActivityShare;
+			sourceTree = "<group>";
+		};
+		A445DD2F1D54652000E0009A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD301D54652000E0009A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A445DD481D54652000E0009A /* ActivityShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD491D54652000E0009A /* ActivityShareTests.m */,
+				A445DD4B1D54652000E0009A /* Info.plist */,
+			);
+			path = ActivityShareTests;
+			sourceTree = "<group>";
+		};
+		A445DD531D54652000E0009A /* ActivityShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD541D54652000E0009A /* ActivityShareUITests.m */,
+				A445DD561D54652000E0009A /* Info.plist */,
+			);
+			path = ActivityShareUITests;
+			sourceTree = "<group>";
+		};
+		A445DD621D54692B00E0009A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD631D54692B00E0009A /* AppDelegate.h */,
+				A445DD641D54692B00E0009A /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A445DD661D546A0200E0009A /* ActivityModular */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD671D546A3600E0009A /* Home */,
+				A445DDA71D549FD400E0009A /* Image */,
+				A445DD7B1D547CC800E0009A /* Text */,
+			);
+			path = ActivityModular;
+			sourceTree = "<group>";
+		};
+		A445DD671D546A3600E0009A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD681D546A3600E0009A /* Controller */,
+				A445DD6E1D546D0600E0009A /* ViewManager */,
+				A445DD691D546A3600E0009A /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A445DD681D546A3600E0009A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD6B1D546A8300E0009A /* ActivityShareController.h */,
+				A445DD6C1D546A8300E0009A /* ActivityShareController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A445DD691D546A3600E0009A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD781D5478F300E0009A /* ActivityShareCell.h */,
+				A445DD791D5478F300E0009A /* ActivityShareCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A445DD6A1D546A4500E0009A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD3B1D54652000E0009A /* Assets.xcassets */,
+				A445DD3D1D54652000E0009A /* LaunchScreen.storyboard */,
+				A445DD401D54652000E0009A /* Info.plist */,
+				A445DD2F1D54652000E0009A /* Supporting Files */,
+				A445DD721D546D4700E0009A /* ActivitySharePrefixHeader.pch */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		A445DD6E1D546D0600E0009A /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD6F1D546D1B00E0009A /* ActivityShareViewManager.h */,
+				A445DD701D546D1B00E0009A /* ActivityShareViewManager.m */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		A445DD731D5473C800E0009A /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD761D5475B500E0009A /* CALCustomShareSDK.framework */,
+				A445DD741D5473D600E0009A /* CALDeveloperKit.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		A445DD7B1D547CC800E0009A /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD7C1D547CC800E0009A /* Controller */,
+				A445DD7D1D547CC800E0009A /* ViewManager */,
+				A445DD7E1D547CC800E0009A /* Views */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		A445DD7C1D547CC800E0009A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD7F1D547CED00E0009A /* ActivityShareTextController.h */,
+				A445DD801D547CED00E0009A /* ActivityShareTextController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A445DD7D1D547CC800E0009A /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD821D547D7100E0009A /* ActivityShareTextViewManager.h */,
+				A445DD831D547D7100E0009A /* ActivityShareTextViewManager.m */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		A445DD7E1D547CC800E0009A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD851D54835200E0009A /* ActivityShareTextView.h */,
+				A445DD861D54835200E0009A /* ActivityShareTextView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A445DD881D548EE100E0009A /* CALActivityController */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD8D1D548EE100E0009A /* ShareBundle.bundle */,
+				A445DD891D548EE100E0009A /* AppIcon.bundle */,
+				A445DD8A1D548EE100E0009A /* Controller */,
+				A445DD8E1D548EE100E0009A /* Views */,
+			);
+			path = CALActivityController;
+			sourceTree = "<group>";
+		};
+		A445DD8A1D548EE100E0009A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD8B1D548EE100E0009A /* CALActivityController.h */,
+				A445DD8C1D548EE100E0009A /* CALActivityController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A445DD8E1D548EE100E0009A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD8F1D548EE100E0009A /* ActionActivity */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A445DD8F1D548EE100E0009A /* ActionActivity */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD901D548EE100E0009A /* SinaWeiboActivity */,
+				A445DD931D548EE100E0009A /* TencentQQActivity */,
+				A445DD961D548EE100E0009A /* TencentQZoneActivity */,
+				A445DD991D548EE100E0009A /* WeChatSessionActivity */,
+				A445DD9C1D548EE100E0009A /* WeChatTimelineActivity */,
+			);
+			path = ActionActivity;
+			sourceTree = "<group>";
+		};
+		A445DD901D548EE100E0009A /* SinaWeiboActivity */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD911D548EE100E0009A /* CALSinaWeiboActivity.h */,
+				A445DD921D548EE100E0009A /* CALSinaWeiboActivity.m */,
+			);
+			path = SinaWeiboActivity;
+			sourceTree = "<group>";
+		};
+		A445DD931D548EE100E0009A /* TencentQQActivity */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD941D548EE100E0009A /* CALTencentQQActivity.h */,
+				A445DD951D548EE100E0009A /* CALTencentQQActivity.m */,
+			);
+			path = TencentQQActivity;
+			sourceTree = "<group>";
+		};
+		A445DD961D548EE100E0009A /* TencentQZoneActivity */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD971D548EE100E0009A /* CALTencentQZoneActivity.h */,
+				A445DD981D548EE100E0009A /* CALTencentQZoneActivity.m */,
+			);
+			path = TencentQZoneActivity;
+			sourceTree = "<group>";
+		};
+		A445DD991D548EE100E0009A /* WeChatSessionActivity */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD9A1D548EE100E0009A /* CALWeChatSessionActivity.h */,
+				A445DD9B1D548EE100E0009A /* CALWeChatSessionActivity.m */,
+			);
+			path = WeChatSessionActivity;
+			sourceTree = "<group>";
+		};
+		A445DD9C1D548EE100E0009A /* WeChatTimelineActivity */ = {
+			isa = PBXGroup;
+			children = (
+				A445DD9D1D548EE100E0009A /* CALWeChatTimelineActivity.h */,
+				A445DD9E1D548EE100E0009A /* CALWeChatTimelineActivity.m */,
+			);
+			path = WeChatTimelineActivity;
+			sourceTree = "<group>";
+		};
+		A445DDA71D549FD400E0009A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A445DDA81D549FD400E0009A /* Controller */,
+				A445DDA91D549FD400E0009A /* ViewManager */,
+				A445DDAA1D549FD400E0009A /* Views */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A445DDA81D549FD400E0009A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A445DDAB1D549FE900E0009A /* ActivityShareImageController.h */,
+				A445DDAC1D549FE900E0009A /* ActivityShareImageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A445DDA91D549FD400E0009A /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				A445DDAE1D54A00000E0009A /* ActivityShareImageViewManager.h */,
+				A445DDAF1D54A00000E0009A /* ActivityShareImageViewManager.m */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		A445DDAA1D549FD400E0009A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A445DDB11D54A08500E0009A /* ActivityShareImageView.h */,
+				A445DDB21D54A08500E0009A /* ActivityShareImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A445DD2B1D54652000E0009A /* ActivityShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A445DD591D54652000E0009A /* Build configuration list for PBXNativeTarget "ActivityShare" */;
+			buildPhases = (
+				A445DD281D54652000E0009A /* Sources */,
+				A445DD291D54652000E0009A /* Frameworks */,
+				A445DD2A1D54652000E0009A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActivityShare;
+			productName = ActivityShare;
+			productReference = A445DD2C1D54652000E0009A /* ActivityShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A445DD441D54652000E0009A /* ActivityShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A445DD5C1D54652000E0009A /* Build configuration list for PBXNativeTarget "ActivityShareTests" */;
+			buildPhases = (
+				A445DD411D54652000E0009A /* Sources */,
+				A445DD421D54652000E0009A /* Frameworks */,
+				A445DD431D54652000E0009A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A445DD471D54652000E0009A /* PBXTargetDependency */,
+			);
+			name = ActivityShareTests;
+			productName = ActivityShareTests;
+			productReference = A445DD451D54652000E0009A /* ActivityShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A445DD4F1D54652000E0009A /* ActivityShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A445DD5F1D54652000E0009A /* Build configuration list for PBXNativeTarget "ActivityShareUITests" */;
+			buildPhases = (
+				A445DD4C1D54652000E0009A /* Sources */,
+				A445DD4D1D54652000E0009A /* Frameworks */,
+				A445DD4E1D54652000E0009A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A445DD521D54652000E0009A /* PBXTargetDependency */,
+			);
+			name = ActivityShareUITests;
+			productName = ActivityShareUITests;
+			productReference = A445DD501D54652000E0009A /* ActivityShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A445DD241D54652000E0009A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cain;
+				TargetAttributes = {
+					A445DD2B1D54652000E0009A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K22U66A47Z;
+					};
+					A445DD441D54652000E0009A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+						TestTargetID = A445DD2B1D54652000E0009A;
+					};
+					A445DD4F1D54652000E0009A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+						TestTargetID = A445DD2B1D54652000E0009A;
+					};
+				};
+			};
+			buildConfigurationList = A445DD271D54652000E0009A /* Build configuration list for PBXProject "ActivityShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A445DD231D54652000E0009A;
+			productRefGroup = A445DD2D1D54652000E0009A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A445DD2B1D54652000E0009A /* ActivityShare */,
+				A445DD441D54652000E0009A /* ActivityShareTests */,
+				A445DD4F1D54652000E0009A /* ActivityShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A445DD2A1D54652000E0009A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A445DD3F1D54652000E0009A /* LaunchScreen.storyboard in Resources */,
+				A445DD3C1D54652000E0009A /* Assets.xcassets in Resources */,
+				A445DD9F1D548EE100E0009A /* AppIcon.bundle in Resources */,
+				A445DDA11D548EE100E0009A /* ShareBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A445DD431D54652000E0009A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A445DD4E1D54652000E0009A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A445DD281D54652000E0009A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A445DDAD1D549FE900E0009A /* ActivityShareImageController.m in Sources */,
+				A445DD651D54692B00E0009A /* AppDelegate.m in Sources */,
+				A445DDA21D548EE100E0009A /* CALSinaWeiboActivity.m in Sources */,
+				A445DDB01D54A00000E0009A /* ActivityShareImageViewManager.m in Sources */,
+				A445DD811D547CED00E0009A /* ActivityShareTextController.m in Sources */,
+				A445DD871D54835200E0009A /* ActivityShareTextView.m in Sources */,
+				A445DD841D547D7100E0009A /* ActivityShareTextViewManager.m in Sources */,
+				A445DDA01D548EE100E0009A /* CALActivityController.m in Sources */,
+				A445DDB31D54A08500E0009A /* ActivityShareImageView.m in Sources */,
+				A445DDA31D548EE100E0009A /* CALTencentQQActivity.m in Sources */,
+				A445DDA41D548EE100E0009A /* CALTencentQZoneActivity.m in Sources */,
+				A445DD6D1D546A8300E0009A /* ActivityShareController.m in Sources */,
+				A445DD7A1D5478F300E0009A /* ActivityShareCell.m in Sources */,
+				A445DDA61D548EE100E0009A /* CALWeChatTimelineActivity.m in Sources */,
+				A445DD311D54652000E0009A /* main.m in Sources */,
+				A445DD711D546D1B00E0009A /* ActivityShareViewManager.m in Sources */,
+				A445DDA51D548EE100E0009A /* CALWeChatSessionActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A445DD411D54652000E0009A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A445DD4A1D54652000E0009A /* ActivityShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A445DD4C1D54652000E0009A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A445DD551D54652000E0009A /* ActivityShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A445DD471D54652000E0009A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A445DD2B1D54652000E0009A /* ActivityShare */;
+			targetProxy = A445DD461D54652000E0009A /* PBXContainerItemProxy */;
+		};
+		A445DD521D54652000E0009A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A445DD2B1D54652000E0009A /* ActivityShare */;
+			targetProxy = A445DD511D54652000E0009A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A445DD3D1D54652000E0009A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A445DD3E1D54652000E0009A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A445DD571D54652000E0009A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A445DD581D54652000E0009A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A445DD5A1D54652000E0009A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ActivityShare/Framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ActivityShare/ActivitySharePrefixHeader.pch";
+				INFOPLIST_FILE = ActivityShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wx1wx.MiLinkDevelopment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "be0ae443-cd77-4106-9f87-096b8e109338";
+			};
+			name = Debug;
+		};
+		A445DD5B1D54652000E0009A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ActivityShare/Framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ActivityShare/ActivitySharePrefixHeader.pch";
+				INFOPLIST_FILE = ActivityShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wx1wx.MiLinkDevelopment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "be0ae443-cd77-4106-9f87-096b8e109338";
+			};
+			name = Release;
+		};
+		A445DD5D1D54652000E0009A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ActivityShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customShare.ActivityShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActivityShare.app/ActivityShare";
+			};
+			name = Debug;
+		};
+		A445DD5E1D54652000E0009A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ActivityShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customShare.ActivityShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActivityShare.app/ActivityShare";
+			};
+			name = Release;
+		};
+		A445DD601D54652000E0009A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ActivityShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customShare.ActivityShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ActivityShare;
+			};
+			name = Debug;
+		};
+		A445DD611D54652000E0009A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ActivityShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customShare.ActivityShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ActivityShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A445DD271D54652000E0009A /* Build configuration list for PBXProject "ActivityShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A445DD571D54652000E0009A /* Debug */,
+				A445DD581D54652000E0009A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A445DD591D54652000E0009A /* Build configuration list for PBXNativeTarget "ActivityShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A445DD5A1D54652000E0009A /* Debug */,
+				A445DD5B1D54652000E0009A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A445DD5C1D54652000E0009A /* Build configuration list for PBXNativeTarget "ActivityShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A445DD5D1D54652000E0009A /* Debug */,
+				A445DD5E1D54652000E0009A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A445DD5F1D54652000E0009A /* Build configuration list for PBXNativeTarget "ActivityShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A445DD601D54652000E0009A /* Debug */,
+				A445DD611D54652000E0009A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A445DD241D54652000E0009A /* Project object */;
+}

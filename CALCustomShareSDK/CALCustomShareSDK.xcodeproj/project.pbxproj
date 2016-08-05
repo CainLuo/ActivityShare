@@ -26,8 +26,6 @@
 		A4A6F3EB1D5326630074EB12 /* CALCustomShareSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3EA1D5326630074EB12 /* CALCustomShareSDKTests.m */; };
 		A4A6F40E1D5326830074EB12 /* CALCustomShare.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3F91D5326830074EB12 /* CALCustomShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A6F40F1D5326830074EB12 /* CALCustomShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3FA1D5326830074EB12 /* CALCustomShare.m */; };
-		A4A6F4101D5326830074EB12 /* CALCustomShareBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3FB1D5326830074EB12 /* CALCustomShareBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4A6F4111D5326830074EB12 /* CALCustomShareBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */; };
 		A4A6F4121D5326830074EB12 /* CALCustomShareMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A6F4131D5326830074EB12 /* CALCustomShareMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */; };
 		A4A6F4161D5326830074EB12 /* CALCustomShare+AliPay.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F4031D5326830074EB12 /* CALCustomShare+AliPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,8 +57,6 @@
 		A4A6F3EC1D5326630074EB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4A6F3F91D5326830074EB12 /* CALCustomShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShare.h; sourceTree = "<group>"; };
 		A4A6F3FA1D5326830074EB12 /* CALCustomShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShare.m; sourceTree = "<group>"; };
-		A4A6F3FB1D5326830074EB12 /* CALCustomShareBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareBlock.h; sourceTree = "<group>"; };
-		A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareBlock.m; sourceTree = "<group>"; };
 		A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareMessage.h; sourceTree = "<group>"; };
 		A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareMessage.m; sourceTree = "<group>"; };
 		A4A6F4031D5326830074EB12 /* CALCustomShare+AliPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALCustomShare+AliPay.h"; sourceTree = "<group>"; };
@@ -143,8 +139,6 @@
 			children = (
 				A4A6F3F91D5326830074EB12 /* CALCustomShare.h */,
 				A4A6F3FA1D5326830074EB12 /* CALCustomShare.m */,
-				A4A6F3FB1D5326830074EB12 /* CALCustomShareBlock.h */,
-				A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */,
 				A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */,
 				A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */,
 			);
@@ -211,7 +205,6 @@
 				A4A6F41C1D5326830074EB12 /* CALCustomShare+SinaWeibo.h in Headers */,
 				A4A6F40E1D5326830074EB12 /* CALCustomShare.h in Headers */,
 				A4A6F3DF1D5326630074EB12 /* CALCustomShareSDK.h in Headers */,
-				A4A6F4101D5326830074EB12 /* CALCustomShareBlock.h in Headers */,
 				A4A6F41A1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\n#open \"${DEVICE_DIR}\"\n#open \"${SRCROOT}/Products\"\nfi";
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\n#open \"${DEVICE_DIR}\"\nopen \"${SRCROOT}/Products\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -339,7 +332,6 @@
 				A4A6F40F1D5326830074EB12 /* CALCustomShare.m in Sources */,
 				A4A6F4131D5326830074EB12 /* CALCustomShareMessage.m in Sources */,
 				A4A6F41B1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.m in Sources */,
-				A4A6F4111D5326830074EB12 /* CALCustomShareBlock.m in Sources */,
 				A4A6F4191D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.m in Sources */,
 				A4A6F41D1D5326830074EB12 /* CALCustomShare+SinaWeibo.m in Sources */,
 			);

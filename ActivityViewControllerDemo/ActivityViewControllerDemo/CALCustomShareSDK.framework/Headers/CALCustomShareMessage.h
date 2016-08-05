@@ -24,20 +24,56 @@ typedef NS_ENUM (NSUInteger, CALCustomShareMessageMultimediaType) {
 
 @interface CALCustomShareMessage : NSObject
 
+#pragma mark - 通用分享属性
+/**
+ *  分享标题
+ */
 @property (nonatomic, copy) NSString *shareTitle;
+
+/**
+ *  分享内容
+ */
 @property (nonatomic, copy) NSString *shareDescription;
+
+/**
+ *  分享URL
+ */
 @property (nonatomic, copy) NSString *shareLink;
 
+/**
+ *  分享图片
+ */
 @property (nonatomic, strong) UIImage *shareImage;
+
+/**
+ *  分享链接的缩略图
+ */
 @property (nonatomic, strong) UIImage *shareThumbnail;
 
+/**
+ *  分享的类型
+ */
 @property (nonatomic, assign) CALCustomShareMessageMultimediaType shareMultimediaType;
 
-//for 微信
+#pragma mark - 微信分享内容
+/**
+ *  分享内容
+ */
 @property (nonatomic, copy) NSString *shareExtInfo;
+
+/**
+ *  分享媒体及URL
+ */
 @property (nonatomic, copy) NSString *shareMediaDataUrl;
+
+/**
+ *  分享文件
+ */
 @property (nonatomic, copy) NSString *shareFileExt;
 
+/**
+ *  分享GIF图片
+ */
 @property (nonatomic, strong) NSData *shareGIFOrFile;
 
 /**
@@ -48,6 +84,7 @@ typedef NS_ENUM (NSUInteger, CALCustomShareMessageMultimediaType) {
  *
  *  @return YES / NO
  */
-- (BOOL)isEmptyWithValueOfKeys:(NSArray *)emptyValueForKeys notEmpty:(NSArray *)notEmptyValueForKeys;
+- (BOOL)isEmptyWithValueOfKeys:(NSArray *)emptyValueForKeys
+                      notEmpty:(NSArray *)notEmptyValueForKeys;
 
 @end

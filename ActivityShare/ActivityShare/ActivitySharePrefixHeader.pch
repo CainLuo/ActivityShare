@@ -1,0 +1,23 @@
+//
+//  ActivitySharePrefixHeader.pch
+//  ActivityShare
+//
+//  Created by Cain on 5/8/16.
+//  Copyright © 2016年 Cain. All rights reserved.
+//
+
+// com.customShare.ActivityShare
+
+#ifndef ActivitySharePrefixHeader_pch
+#define ActivitySharePrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <CALDeveloperKit/CALDeveloperKit.h>
+#import <CALCustomShareSDK/CALCustomShareSDK.h>
+#import <CALDeveloperKit/Masonry.h>
+
+#import "CALActivityController.h"
+
+#define LINE_COLOR [UIColor colorWithWhite:0.9 alpha:1]
+
+#endif /* ActivitySharePrefixHeader_pch */

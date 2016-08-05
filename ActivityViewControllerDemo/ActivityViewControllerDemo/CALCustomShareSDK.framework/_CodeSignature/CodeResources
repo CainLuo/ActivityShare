@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CALCustomShare+AliPay.h</key>
 		<data>
-		vnXlNWp/KE8cXgiM0Ofyu9vFo24=
+		2S6iwlgw9WiYrXXQv6PzkpU99Og=
 		</data>
 		<key>Headers/CALCustomShare+CALCustomShareTencent.h</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Headers/CALCustomShareMessage.h</key>
 		<data>
-		D32RCKA6I3hz2RhaV+1gWQSkMms=
+		heThhQQojBln0uDb1o+iDNASvYE=
 		</data>
 		<key>Headers/CALCustomShareSDK.h</key>
 		<data>
-		24l/fmI5cpq86HEaqvUOX/ye94c=
+		/1zLUNj+WQT14vJ3ZO6HK3XMw/Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aur0vk3JUEhBbYp6K0F2l+Evhhg=
+		7JV/WTHlfTYGriCLr+1NVYW4l4c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vnXlNWp/KE8cXgiM0Ofyu9vFo24=
+			2S6iwlgw9WiYrXXQv6PzkpU99Og=
 			</data>
 			<key>hash2</key>
 			<data>
-			2rahgyZ/euc68VkM7CcWVczRJk+RqbrfXLSw+ONqhks=
+			Ej7/KgZwsQ6CuDNDoxSgHYSgZgx5OGVeZcTxoMjMQZI=
 			</data>
 		</dict>
 		<key>Headers/CALCustomShare+CALCustomShareTencent.h</key>
@@ -102,22 +102,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D32RCKA6I3hz2RhaV+1gWQSkMms=
+			heThhQQojBln0uDb1o+iDNASvYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			P5V5rn/CEU5G8zM5ZS3soRkfXltVFI6kFEy7RzGp9zg=
+			2qD+oU2wZWlCeOKchoIGs9pwWyLZqIzgL+YAssvMWlU=
 			</data>
 		</dict>
 		<key>Headers/CALCustomShareSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			24l/fmI5cpq86HEaqvUOX/ye94c=
+			/1zLUNj+WQT14vJ3ZO6HK3XMw/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			bDqT4knGduANHut/CBH2yMnAzPrcBRooDgvoyNRjALU=
+			8DLM4qlNC5ljDx6wRAa2l5RU1534IWKVPADae4qwC1s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

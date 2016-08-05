@@ -1,0 +1,6 @@
+framework module CALDeveloperKit {
+  umbrella header "CALDeveloperKit.h"
+
+  export *
+  module * { export * }
+}
