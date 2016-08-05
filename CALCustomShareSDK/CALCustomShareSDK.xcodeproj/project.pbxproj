@@ -30,8 +30,6 @@
 		A4A6F4111D5326830074EB12 /* CALCustomShareBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */; };
 		A4A6F4121D5326830074EB12 /* CALCustomShareMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A6F4131D5326830074EB12 /* CALCustomShareMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */; };
-		A4A6F4141D5326830074EB12 /* CALCustomShareRegisterPlatforms.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F3FF1D5326830074EB12 /* CALCustomShareRegisterPlatforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4A6F4151D5326830074EB12 /* CALCustomShareRegisterPlatforms.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F4001D5326830074EB12 /* CALCustomShareRegisterPlatforms.m */; };
 		A4A6F4161D5326830074EB12 /* CALCustomShare+AliPay.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F4031D5326830074EB12 /* CALCustomShare+AliPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A6F4171D5326830074EB12 /* CALCustomShare+AliPay.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6F4041D5326830074EB12 /* CALCustomShare+AliPay.m */; };
 		A4A6F4181D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F4061D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,8 +63,6 @@
 		A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareBlock.m; sourceTree = "<group>"; };
 		A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareMessage.h; sourceTree = "<group>"; };
 		A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareMessage.m; sourceTree = "<group>"; };
-		A4A6F3FF1D5326830074EB12 /* CALCustomShareRegisterPlatforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCustomShareRegisterPlatforms.h; sourceTree = "<group>"; };
-		A4A6F4001D5326830074EB12 /* CALCustomShareRegisterPlatforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCustomShareRegisterPlatforms.m; sourceTree = "<group>"; };
 		A4A6F4031D5326830074EB12 /* CALCustomShare+AliPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALCustomShare+AliPay.h"; sourceTree = "<group>"; };
 		A4A6F4041D5326830074EB12 /* CALCustomShare+AliPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALCustomShare+AliPay.m"; sourceTree = "<group>"; };
 		A4A6F4061D5326830074EB12 /* CALCustomShare+CALCustomShareTencent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALCustomShare+CALCustomShareTencent.h"; sourceTree = "<group>"; };
@@ -151,8 +147,6 @@
 				A4A6F3FC1D5326830074EB12 /* CALCustomShareBlock.m */,
 				A4A6F3FD1D5326830074EB12 /* CALCustomShareMessage.h */,
 				A4A6F3FE1D5326830074EB12 /* CALCustomShareMessage.m */,
-				A4A6F3FF1D5326830074EB12 /* CALCustomShareRegisterPlatforms.h */,
-				A4A6F4001D5326830074EB12 /* CALCustomShareRegisterPlatforms.m */,
 			);
 			path = BaseSDK;
 			sourceTree = "<group>";
@@ -219,7 +213,6 @@
 				A4A6F3DF1D5326630074EB12 /* CALCustomShareSDK.h in Headers */,
 				A4A6F4101D5326830074EB12 /* CALCustomShareBlock.h in Headers */,
 				A4A6F41A1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.h in Headers */,
-				A4A6F4141D5326830074EB12 /* CALCustomShareRegisterPlatforms.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +337,6 @@
 			files = (
 				A4A6F4171D5326830074EB12 /* CALCustomShare+AliPay.m in Sources */,
 				A4A6F40F1D5326830074EB12 /* CALCustomShare.m in Sources */,
-				A4A6F4151D5326830074EB12 /* CALCustomShareRegisterPlatforms.m in Sources */,
 				A4A6F4131D5326830074EB12 /* CALCustomShareMessage.m in Sources */,
 				A4A6F41B1D5326830074EB12 /* CALCustomShare+CALCustomShareWeChat.m in Sources */,
 				A4A6F4111D5326830074EB12 /* CALCustomShareBlock.m in Sources */,
@@ -553,6 +545,7 @@
 				A4A6F3F11D5326630074EB12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4A6F3F21D5326630074EB12 /* Build configuration list for PBXNativeTarget "CALCustomShareSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +554,7 @@
 				A4A6F3F41D5326630074EB12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4A6F41F1D5327570074EB12 /* Build configuration list for PBXAggregateTarget "CALCustomShareAggregate" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +563,7 @@
 				A4A6F4211D5327570074EB12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
